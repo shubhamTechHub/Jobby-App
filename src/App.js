@@ -2,6 +2,7 @@ import {Route, Switch} from 'react-router-dom'
 import './App.css'
 import LoginForm from './components/LoginForm'
 import Home from './components/Home'
+import ProtectedRoute from './components/ProtectedRoute'
 
 // These are the lists used in the application. You can move them to any component needed.
 // const employmentTypesList = [
@@ -46,7 +47,7 @@ import Home from './components/Home'
 const App = () => (
   <Switch>
     <Route exact path="/login" component={LoginForm} />
-    <Route exact path="/" component={Home} />
+    <ProtectedRoute exact path="/" component={Home} />
   </Switch>
 )
 

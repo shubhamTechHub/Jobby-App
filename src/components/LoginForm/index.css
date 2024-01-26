@@ -60,3 +60,11 @@
   padding: 8px 0;
   margin-top: 10px;
 }
+
+.error-message {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ff0b37;
+  line-height: 0em;
+  align-self: flex-start;
+}
