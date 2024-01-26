@@ -59,6 +59,7 @@
   border-radius: 6px;
   padding: 8px 0;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .error-message {
